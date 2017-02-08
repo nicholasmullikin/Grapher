@@ -19,12 +19,13 @@ float k = 0;
 int lx;
 float x = 0;
 float y = 0;
-PFont regular = createFont("Calibria",12);
+
 
 
 
 void setup()
 {
+  PFont regular = createFont("Calibria",12);
   size (900,600);
    output = createWriter("data/graph.txt");
   output1 = createWriter("data/info.txt"); 
